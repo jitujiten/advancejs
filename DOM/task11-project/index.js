@@ -10,7 +10,7 @@ function submitted(e){
     var phonevalue=document.getElementById("phone").value;
     var datevalue=document.getElementById("date").value;
     var timevalue=document.getElementById("time").value;
-    
+
     e.preventDefault();
 
     var myobj={
@@ -45,7 +45,4 @@ var namevalue=document.getElementById("name");
     }, 2000);
    }
 }
-
-
-
 
